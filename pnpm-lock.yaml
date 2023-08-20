@@ -11,8 +11,8 @@ importers:
   packages/backend:
     dependencies:
       hono:
-        specifier: 3.1.5
-        version: 3.1.5
+        specifier: 3.4.3
+        version: 3.4.3
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20230628.0
@@ -29,6 +29,9 @@ importers:
       '@builder.io/qwik-city':
         specifier: ^1.2.7
         version: 1.2.7
+      '@cloudflare/workers-types':
+        specifier: ^4.20230628.0
+        version: 4.20230628.0
       '@types/eslint':
         specifier: 8.44.1
         version: 8.44.1
@@ -47,6 +50,9 @@ importers:
       eslint-plugin-qwik:
         specifier: ^1.2.7
         version: 1.2.7(eslint@8.45.0)
+      hono:
+        specifier: 3.4.3
+        version: 3.4.3
       prettier:
         specifier: 3.0.0
         version: 3.0.0
@@ -62,6 +68,9 @@ importers:
       vite-tsconfig-paths:
         specifier: 4.2.0
         version: 4.2.0(typescript@5.1.6)(vite@4.4.7)
+      wrangler:
+        specifier: ^3.0.0
+        version: 3.1.2
 
 packages:
 
@@ -1930,10 +1939,9 @@ packages:
     resolution: {integrity: sha512-nAxA0v8+vXSBDt3AnRUNjyRIQ0rD+ntpbAp4LnPkumc5M9yUbSMa4XDU9Q6etY4f1Wp4bNgvc1yjiZtsTTrSng==}
     dev: true
 
-  /hono@3.1.5:
-    resolution: {integrity: sha512-ypFLhNYoXXtep4I9zJt3VpB5/Ze3p9BLU4dpnAp7fxHOmSg8lu/Wwjs5sTJnb2GwVdfjbt9KFB9alA4Zt/P0jw==}
+  /hono@3.4.3:
+    resolution: {integrity: sha512-HbVxZh9yC3hV25+mFjUaM65t7g8ia2mXbhAGmVHA0r8+guizTJq1Cg4f2SmB5+JrviG0vaqOnWJ9U3O05aikbA==}
     engines: {node: '>=16.0.0'}
-    dev: false
 
   /http-cache-semantics@4.1.1:
     resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}

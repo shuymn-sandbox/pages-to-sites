@@ -1,0 +1,10 @@
+main = "server/entry.workers.mjs"
+compatibility_date = "2023-01-01"
+compatibility_flags = ['nodejs_compat']
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "pnpm build.client && pnpm build.workers"
+watch_dir = ["../frontend/src", "../backend/src"]
