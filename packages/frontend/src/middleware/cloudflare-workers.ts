@@ -4,6 +4,7 @@ import { mergeHeadersCookies, requestHandler } from '@builder.io/qwik-city/middl
 import { setServerPlatform } from '@builder.io/qwik/server'
 import type { MiddlewareHandler } from 'hono'
 
+// ref: https://github.com/honojs/middleware/blob/main/packages/qwik-city/src/index.ts
 export const qwikMiddleware = (opts: ServerRenderOptions): MiddlewareHandler => {
 	const qwikSerializer = {
 		_deserializeData,
